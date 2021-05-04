@@ -13,7 +13,7 @@ namespace POSUNO.Api.Data.Entities
 
         [Required]
         [MaxLength(50)]
-        public string FirsName { get; set; }
+        public string FirstName { get; set; }
 
         [Required]
         public string LastName { get; set; }
